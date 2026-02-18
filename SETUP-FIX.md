@@ -10,20 +10,26 @@ The repository is missing the `main` branch which is required to initialize the 
 
 This PR will create the `main` branch when merged. After merging:
 
-### What Will Happen Automatically:
-1. ✅ The `main` branch will be created
+### Step 1: Merge This PR
+**IMPORTANT**: When merging this PR, make sure to:
+- Set the **base branch** to `main` (create it if needed)
+- Click **"Merge pull request"**
+
+If `main` branch doesn't exist as a target, GitHub will create it automatically when you merge.
+
+### What Will Happen Automatically After Merge:
+1. ✅ The `main` branch will be created/updated
 2. ✅ The "Step 0" workflow will trigger automatically
 3. ✅ An issue (#1) will be created with exercise instructions
 4. ✅ The "Step 1" workflow will be enabled
 
-### What You Need to Do Next:
-1. **Wait for this PR to be merged to `main`** (it will create the main branch)
-2. **Wait for the workflows to run** (this happens automatically when `main` is created)
-3. **Check Issue #1** - it will contain your exercise instructions
-4. **Follow the instructions in Issue #1** to:
+### Step 2: What You Need to Do Next
+1. **Wait for the workflows to run** (check the "Actions" tab - Step 0 should run)
+2. **Go to Issue #1** - it will contain your exercise instructions
+3. **Follow the instructions in Issue #1** to:
    - Create a new branch called `my-first-branch` (from the `main` branch this time)
-   - Add a `PROFILE.md` file
-   - Open a pull request
+   - Add a `PROFILE.md` file to that branch
+   - Open a pull request from `my-first-branch` to `main`
    - Merge your pull request
 
 ## Why This Happened
